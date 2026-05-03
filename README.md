@@ -44,7 +44,7 @@ app.py
 
 6. Despliega la app y copia el link publico para la entrega.
 
-Nota: `requirements.txt` fija `streamlit` y `rich` para evitar conflictos de dependencias durante el despliegue.
+Nota: `requirements.txt` fija `streamlit` y `pillow` en versiones modernas para evitar que Streamlit Cloud intente compilar Pillow desde codigo fuente.
 
 ## Como usar la app
 
