@@ -14,13 +14,12 @@ No implementa entrenamiento automatico. Los pesos `w1`, `w2` y el bias `b` se aj
 ## Archivos
 
 - `app.py`: aplicacion principal de Streamlit.
-- `requirements.txt`: dependencias necesarias para ejecutar y desplegar.
 - `reporte.md`: plantilla de reporte corto para completar con capturas y reflexion.
 
 ## Ejecutar localmente
 
 ```bash
-pip install -r requirements.txt
+pip install streamlit
 streamlit run app.py
 ```
 
@@ -43,6 +42,8 @@ app.py
 ```
 
 6. Despliega la app y copia el link publico para la entrega.
+
+Nota: no se incluye `requirements.txt` porque Streamlit Community Cloud ya instala `streamlit` por defecto y la app no usa librerias externas.
 
 ## Como usar la app
 
